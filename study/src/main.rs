@@ -1,10 +1,15 @@
-use std::sync::Mutex;
+use std::{fmt::{self, Display}, sync::Mutex};
 #[derive(Debug)]
 struct Demo {
-   name: Mutex<i32>,
+  pub name: i32,
+}
+impl Display for Demo {
+ fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
+        write!(f, "{}", self.name)
+    }
 }
 fn main() {
-    let demo = Demo {name: Mutex::new(5)};
+    let demo = Demo {name: 5};
     // let n = demo.name.lock().unwrap();
     // println!("e={:}", n);
     // println!("e2={:}", n);
@@ -12,5 +17,5 @@ fn main() {
 
     println!("{:b} ", 31);
 
-    println!("{:#?}", demo);
+    println!("{}", demo);
 }
