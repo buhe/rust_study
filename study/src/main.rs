@@ -12,5 +12,5 @@ fn main() {
 
     println!("{:b} ", 31);
 
-    println!("{:?}", demo);
+    println!("{:#?}", demo);
 }
