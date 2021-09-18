@@ -1,3 +1,6 @@
+enum Foo {
+    Bar
+}
 fn main() {
     println!("Hello, world!");
     loop {
@@ -16,5 +19,8 @@ fn main() {
         }
     }
     println!("a is {:?}", a);
-   
+    let ab = Foo::Bar;
+   if let Foo::Bar = ab {
+       println!("a is foobar");
+   }
 }
