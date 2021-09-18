@@ -6,7 +6,7 @@ ref: https://rustwiki.org/zh-CN/rust-by-example
 - [x] c4
 - [x] c5
 - [x] c6
-- [ ] c7
+- [x] c7
 - [ ] c8
 - [ ] c9
 - [ ] c10
