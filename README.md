@@ -1,7 +1,7 @@
 ## rust study
 ref: https://rustwiki.org/zh-CN/rust-by-example
 - [x] c1
-- [ ] c2
+- [x] c2
 - [ ] c3
 - [ ] c4
 - [ ] c5
