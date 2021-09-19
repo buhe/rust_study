@@ -10,8 +10,8 @@ ref: https://rustwiki.org/zh-CN/rust-by-example
 - [x] c8
 - [x] c9
 - [x] c10
-- [ ] c11
-- [ ] c12
+- [x] c11
+- [x] c12
 - [ ] c13
 - [ ] c14
 - [ ] c15
