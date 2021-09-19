@@ -1,5 +1,7 @@
 ## rust study
-ref: https://rustwiki.org/zh-CN/rust-by-example
+- ref: https://rustwiki.org/zh-CN/rust-by-example
+
+## Progress
 - [x] c1
 - [x] c2
 - [x] c3
