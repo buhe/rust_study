@@ -1,4 +1,4 @@
-## rust study
+## Rust study
 - ref: https://rustwiki.org/zh-CN/rust-by-example
 
 ## Progress
